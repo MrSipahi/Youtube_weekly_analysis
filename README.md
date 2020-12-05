@@ -1,7 +1,8 @@
 # What is it ?
 
   
-Bu program veritabanında bulunan youtube kanalının günlük görüntülenme verilerini belirli bir tarih arasında ki günlere göre karşılaştırır. Karşılaştırdığı bu verileri görselleştirip Instagram sayfasında paylaşır. 
+
+This application compares the daily viewing data of the given YouTube channel in the database according to the days between a certain date.It visualizes this compared data and shares it on the Instagram page.
 
 
 ![enter image description here](https://github.com/MrSipahi/Youtube_weekly_analysis/blob/main/photo/post.PNG?raw=true)
@@ -9,12 +10,12 @@ Bu program veritabanında bulunan youtube kanalının günlük görüntülenme v
 
 # How does it work
 
-Bu programın çalışması için veritabanında 'gunluk' adında bir tablo olması gerekir. Program 'gunluk' adlı tablodan youtube kanallarının günlük istatistik verilerini elde eder.
+For this program to work, there must be a table named 'gunluk' in the database.The program obtains daily statistics data of youtube channels from the table named 'gunluk'.
 
  ![enter image description here](https://github.com/MrSipahi/Youtube_Top_List/blob/main/photo/gunluk_table.PNG?raw=true)
 
 
-Elde edilen verileri günlere ayırarak karşılaştırır. Bu program her hafta Pazartesi günü çalıştırılır. Pazartesi günleri veritabanında bulunan bütün youtube kanallarının bu analizi albüm şeklinde paylaşılmaktadır. 
+Compares the obtained data by dividing into days. This program is run every week on Monday.Daily comparison analysis of channels in the database on Mondays is shared in the form of an album. 
 
 
 
